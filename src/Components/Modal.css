@@ -1,0 +1,126 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 70%;
+  height: 80%;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+  /* overflow-y: auto; */
+  font-size: medium;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
+.body Table {
+  width: 900px;
+  height: 90%;
+  border-collapse: collapse;
+}
+Th {
+  border-bottom: 1px solid black;
+  border: 1px solid black;
+}
+Td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+/* @media (max-width: 920px) {
+  .body Table { 
+display: flex;
+flex-direction: column;
+}  
+  Tr {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+/* 
+@media (max-width: 640px) {
+  .body Table {
+    width: 100%;
+    height: 90%;
+    border-collapse: collapse;
+  }
+  .body Td {
+    padding: 7px;
+  }
+}
+
+@media (max-width: 400px) {
+  .body Table {
+    font-size: small;
+  }
+} */
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 400px) {
+  .table-container table {
+    font-size: medium;
+    height: 180px;
+  }
+}
