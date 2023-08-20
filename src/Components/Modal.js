@@ -85,13 +85,13 @@ function Modal({ setOpenModal }) {
                 <td>Nothing</td>
               </tr>
               <tr >
-                <td>Service</td>
+                <td>More</td>
                 <td>RG97-RG97-W000001</td>
-                <td>prashantp</td>
+                <td>helloxyz</td>
                 <td>20 July 2023</td>
                 <td>prashantp</td>
                 <td>9009090900</td>
-                <td>prashantp@gmail.com</td>
+                <td>hello@gmail.com</td>
                 <td>xyz</td>
                 <td>Nothing</td>
               </tr>
